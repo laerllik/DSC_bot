@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "----build----": "-",
+    "bootstrap": "npm install",
     "build": "tsc",
     "start": "node ./dist/index.js",
     "----tests----": "-",
@@ -27,5 +28,8 @@
     "prettier": "^3.7.4",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.49.0"
+  },
+  "dependencies": {
+    "grammy": "^1.38.4"
   }
 }
